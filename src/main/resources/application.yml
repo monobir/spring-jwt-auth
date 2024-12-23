@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jwt_auth
+    username: pk
+    password: pk1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop  # Options: create, create-drop, update, validate, or none
+    show-sql: true           # Log SQL queries in the console
+    properties:
+      hibernate:
+        format-sql: true     # Pretty-print SQL queries
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
