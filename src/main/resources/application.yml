@@ -11,6 +11,6 @@ spring:
     show-sql: true           # Log SQL queries in the console
     properties:
       hibernate:
-        format-sql: true     # Pretty-print SQL queries
+        format_sql: true     # Pretty-print SQL queries
         dialect: org.hibernate.dialect.MySQL8Dialect
 
